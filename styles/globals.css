@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    body {
+        @apply !scrollbar-thin !scrollbar-thumb-slate-700 !scrollbar-track-transparent
+    }
+}
+
+@layer components {
+    .titles {
+        @apply text-xl font-bold underline py-2 md:text-2xl lg:text-3xl
+    }
+
+    .flavors__col {
+        @apply flex flex-col h-[60vh] 
+        md:justify-around
+    }
+
+    .flavors__box {
+        @apply flex flex-col items-center text-center shadow-2xl rounded-2xl w-[7rem] h-[10rem] mx-2 justify-center
+        md:w-[12rem] md:h-[12rem] 
+        lg:w-[15rem] lg:h-[15rem]
+        xl:w-[20rem] xl:h-[20rem]
+    }
+}
