@@ -37,12 +37,12 @@ const Home: NextPage = () => {
           </div>
           <div className='flex flex-col bg-green-200 h-[92vh] w-[50%] justify-center items-end
             md:h-[100vh]
-            xl:pb-[10rem]'
+            xl:pb-[5rem]'
           >
             <div className='w-[10rem] h-[15rem]
               md:w-[20rem] md:h-[30rem]
               lg:w-[25rem] lg:h-[35rem]
-              xl:w-[28rem] xl:h-[35rem]'
+              xl:w-[27rem] xl:h-[35rem]'
             >
               <img 
                 src='ice_cream_w_hand.png'
