@@ -93,16 +93,16 @@ const Home: NextPage = () => {
                   >
                     <div className='flex flex-col justify-center items-center px-2 py-1'>
                       <label className='text-lg font-bold'>Name</label>
-                      <input type='text' className='w-[13rem] h-[1.5rem]'></input>
+                      <input type='text' className='w-[13rem] h-[1.5rem] rounded-lg bg-slate-50'></input>
                     </div>
                     <div className='flex flex-col justify-center items-center px-2 py-1'>
                       <label className='text-lg font-bold'>Email</label>
-                      <input type='text' className='w-[13rem] h-[1.5rem]'></input>
+                      <input type='text' className='w-[13rem] h-[1.5rem] rounded-lg bg-slate-50'></input>
                     </div>
                   </div>
                   <div className='flex flex-col justify-center items-center px-2 py-1'>
                       <label className='text-lg font-bold pb-1'>Questions?</label>
-                      <input type='text' className='w-[15rem] h-[8rem]
+                      <input type='text' className='w-[15rem] h-[8rem] rounded-lg bg-slate-50
                         lg:w-[30rem] lg:h-[13rem]'
                       ></input>
                   </div>
