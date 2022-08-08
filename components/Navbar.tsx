@@ -2,7 +2,9 @@ import Link from "next/link"
 
 function Navbar() {
     return (
-        <header className='flex flex-row w-full h-[8vh] justify-between bg-white/90 fixed z-10'>
+        <header className='flex flex-row w-full h-[4rem] justify-between bg-white/90 fixed z-10
+            md:h-[4rem]'
+        >
             <div className='flex items-center float-left pl-1
                 md:pl-4'
             >
